@@ -1,0 +1,23 @@
+<main *ngIf="college">
+    <section class="content-menu content-menu-border">
+        <div class="container header-block">
+            <div class="info-header">
+                <div class="college-img">
+                    <img src="../assets/image/{{college.photo}}" alt="">
+                </div>
+                <div class="college-name">
+                    <h1>{{ college?.name }}</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="information pt-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-12 description">
+                    <div [innerHTML]="college.about" class="college-description"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>

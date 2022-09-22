@@ -1,0 +1,10 @@
+{
+  "college": {
+    "id": 0,
+    "name": "college name",
+    "photo": "college_1.jpg",
+    "about": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+    "media_type": 1,
+    "vimeo_video_id": 1
+  }
+}

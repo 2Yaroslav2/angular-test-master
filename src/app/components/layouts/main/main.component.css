@@ -1,0 +1,10 @@
+.footer{
+    margin-top: auto;
+}
+
+.wrapper{
+    /*overflow: hidden;*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,7 @@
+.footer-options{
+    display: flex;
+    align-items: center;
+
+    background-color: rgb(248, 249, 250);
+    height: 100px;
+}

@@ -1,0 +1,43 @@
+:host {
+  font-weight: 400;
+
+  .college-description {
+    max-width: 960px;
+  }
+}
+
+.info-header {
+  margin-top: 40px;
+  position: relative;
+
+  h1 {
+    font-size: 36px;
+    color: #000;
+    right: -15px;
+  }
+
+  font-weight: 500;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  padding-right: 0;
+  padding-left: 0;
+
+  margin-bottom: 40px;
+}
+
+.content-menu-border {
+  border-bottom: #333 1px solid;
+}
+
+
+.college-description {
+  font-size: 1.4rem;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
